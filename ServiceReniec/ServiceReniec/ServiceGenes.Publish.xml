@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://localhost/a" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="False">
+    <file relUrl="bin/ServiceGenes.dll" publishTime="01/15/2013 10:24:16" />
+    <file relUrl="Service1.svc" publishTime="09/18/2012 09:23:52" />
+    <file relUrl="bin/ServiceGenes.pdb" publishTime="01/15/2013 10:24:16" />
+    <file relUrl="Web.config" publishTime="01/15/2013 10:24:22" />
+  </publishProfile>
+  <publishProfile publishUrl="C:\inetpub\wwwroot\serviceReniec" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile2" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/ServiceGenes.dll" publishTime="01/24/2013 17:44:19" />
+    <file relUrl="Service1.svc" publishTime="09/18/2012 09:23:52" />
+    <file relUrl="bin/ServiceGenes.pdb" publishTime="01/24/2013 17:44:19" />
+    <file relUrl="Web.config" publishTime="01/24/2013 17:44:26" />
+  </publishProfile>
+</publishData>

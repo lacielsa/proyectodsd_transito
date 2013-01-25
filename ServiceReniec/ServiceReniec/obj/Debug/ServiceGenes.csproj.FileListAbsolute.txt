@@ -1,0 +1,25 @@
+D:\LACIELSA\Proyecto Genes\SCG\Desarrollo\WebGenes\ServiceGenes\ServiceGenes\bin\ServiceGenes.dll
+D:\LACIELSA\Proyecto Genes\SCG\Desarrollo\WebGenes\ServiceGenes\ServiceGenes\bin\ServiceGenes.pdb
+D:\LACIELSA\Proyecto Genes\SCG\Desarrollo\WebGenes\ServiceGenes\ServiceGenes\obj\Debug\ResolveAssemblyReference.cache
+D:\LACIELSA\Proyecto Genes\SCG\Desarrollo\WebGenes\ServiceGenes\ServiceGenes\obj\Debug\ServiceGenes.dll
+D:\LACIELSA\Proyecto Genes\SCG\Desarrollo\WebGenes\ServiceGenes\ServiceGenes\obj\Debug\ServiceGenes.pdb
+D:\LACIELSA\WebGenes\ServiceGenes\ServiceGenes\bin\ServiceGenes.dll
+D:\LACIELSA\WebGenes\ServiceGenes\ServiceGenes\bin\ServiceGenes.pdb
+D:\LACIELSA\WebGenes\ServiceGenes\ServiceGenes\obj\Debug\ResolveAssemblyReference.cache
+D:\LACIELSA\WebGenes\ServiceGenes\ServiceGenes\obj\Debug\ServiceGenes.dll
+D:\LACIELSA\WebGenes\ServiceGenes\ServiceGenes\obj\Debug\ServiceGenes.pdb
+C:\Users\Desarrollo3\Desktop\genes\ServiceGenes\ServiceGenes\bin\ServiceGenes.dll
+C:\Users\Desarrollo3\Desktop\genes\ServiceGenes\ServiceGenes\bin\ServiceGenes.pdb
+C:\Users\Desarrollo3\Desktop\genes\ServiceGenes\ServiceGenes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Desarrollo3\Desktop\genes\ServiceGenes\ServiceGenes\obj\Debug\ServiceGenes.dll
+C:\Users\Desarrollo3\Desktop\genes\ServiceGenes\ServiceGenes\obj\Debug\ServiceGenes.pdb
+D:\LACIELSA\Proyecto Genes\ServiceGenes\ServiceGenes\bin\ServiceGenes.dll
+D:\LACIELSA\Proyecto Genes\ServiceGenes\ServiceGenes\bin\ServiceGenes.pdb
+D:\LACIELSA\Proyecto Genes\ServiceGenes\ServiceGenes\obj\Debug\ResolveAssemblyReference.cache
+D:\LACIELSA\Proyecto Genes\ServiceGenes\ServiceGenes\obj\Debug\ServiceGenes.dll
+D:\LACIELSA\Proyecto Genes\ServiceGenes\ServiceGenes\obj\Debug\ServiceGenes.pdb
+D:\LACIELSA\Proyecto Genes\ServiceGenes - copia\ServiceGenes\bin\ServiceGenes.dll
+D:\LACIELSA\Proyecto Genes\ServiceGenes - copia\ServiceGenes\bin\ServiceGenes.pdb
+D:\LACIELSA\Proyecto Genes\ServiceGenes - copia\ServiceGenes\obj\Debug\ResolveAssemblyReference.cache
+D:\LACIELSA\Proyecto Genes\ServiceGenes - copia\ServiceGenes\obj\Debug\ServiceGenes.dll
+D:\LACIELSA\Proyecto Genes\ServiceGenes - copia\ServiceGenes\obj\Debug\ServiceGenes.pdb

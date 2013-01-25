@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DBReniec" Class="ReniecDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DBReniec.mssql.somee.com;Initial Catalog=DBReniec;Persist Security Info=True;User ID=dsdtransito_SQLLogin_1" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DBReniecConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Persona" Member="Personas">
+    <Type Name="Persona">
+      <Column Name="v_dni" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="v_nombre" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="v_direccion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="v_fec_nac" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
