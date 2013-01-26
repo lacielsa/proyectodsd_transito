@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+#lista{ list-style-image:url(../imagenes/vineta.gif);}
+#lista a{color:#255387; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+#lista a:hover{text-decoration:underline; color:#333;}
+
+/*Pagina Inicio*/
+.barraIndex{
+background-image:url(../imagenes/login_08.jpg);
+background-repeat:repeat-x;
+background-position:center;}
+
+.txtBlanco12Bold{
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;}
+
+.logoGMDbig{
+background-image:url(../imagenes/logoGMDbig.png);
+background-repeat:no-repeat;
+}
+
+.GMDbig{
+background-image:url(../imagenes/login_05_05.jpg);
+background-repeat:no-repeat;
+background-position: top right; }
+
+.bAceptar{
+background-image:url(../imagenes/bAceptarN.png);
+background-repeat:no-repeat;
+}
+
+.bAceptar-hover{
+background-image:url(../imagenes/bAceptarO.png);
+background-repeat:no-repeat;
+cursor:pointer;
+}
+
+.bLimpiar{
+background-image:url(../imagenes/bLimpiarN.png);
+background-repeat:no-repeat;
+}
+
+.bLimpiar-hover{
+background-image:url(../imagenes/bLimpiarO.png);
+background-repeat:no-repeat;
+cursor:pointer;
+}
+
+.txtAzul12enlaceDer{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#255386;
+text-align:right;
+text-decoration:underline;}
+
+.iSalir{
+background-image:url(../imagenes/i_salir.gif);
+background-repeat:no-repeat;
+background-position:right;
+padding-left:10px;
+background-position:center;}
+
+/*Pagina interna*/
+.barraInterna{
+background-image:url(../imagenes/barraInterna.gif);
+background-repeat:repeat-x;
+background-position:center;}
+
+.logoGMDsmall{
+background-image:url(../imagenes/barraInterna.gif);
+background-repeat:no-repeat;
+}
+
+.logoGMDsmall{
+background-image:url(../imagenes/logoGMDsmall.gif);
+background-repeat:no-repeat;
+}
+
+.txtBlanco11Der{
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-size:11px;
+text-align:right;}
+
+.GMDsmall{
+background-image:url(../imagenes/GMDsmall.gif);
+background-repeat:no-repeat;
+background-position: top right; }
+
+.barraMenu{
+background-image: url(../imagenes/barraMenu.gif);
+background-repeat:repeat-x;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#255387;}
+
+.iCheck{
+background-image:url(../imagenes/i_check.gif);
+background-repeat:no-repeat;
+width:16 px;
+height:14 px;
+visibility:visible;}
+
+
+
+/*Para accordion*/
+dl.accordion-menu {
+	margin: 0;
+	padding: 0;
+	width: 162px;
+	background:white;
+}
+
+dl.accordion-menu dt.a-m-t {
+	margin: 0;
+	height:30px;
+	background-image:url(../imagenes/barraMenu.gif);
+	background-repeat:repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#255387;
+	padding: 0.3em 1em;
+	vertical-align:middle;
+}
+
+dl.accordion-menu dt.a-m-t-hover{
+	background-image:url(../imagenes/barraMenu.gif);
+	background-repeat:repeat-x;
+}
+
+
+html.accordion-menu-js dt.a-m-t{
+	cursor:pointer;
+	zoom:1;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#255387;
+}
+
+dl.accordion-menu dd.a-m-d {
+	margin: 0;
+	padding: 0;
+	background-color:#f4f4f4;
+}
+
+html.accordion-menu-js dd.a-m-d{
+	display:none;
+}
+
+html.accordion-menu-js dd.a-m-d-expand {
+	display:block;
+}
+
+html.accordion-menu-js dd.a-m-d-before-expand {
+	display:block;
+	position:relative;
+	z-index:-1;
+	opacity:0;
+	height:auto !important;
+	visibility:hidden;
+	overflow:visible;
+}
+
+html.accordion-menu-js dt.a-m-t-expand {
+	color:#255387;
+	background-image:url(../imagenes/barraMenu.gif);
+	background-repeat:repeat-x;
+}
+
+html.accordion-menu-js dd.a-m-d-anim {
+	overflow:hidden;
+	display:block;	
+}
+
+dl.accordion-menu dd.a-m-d .bd{
+	padding :0.3em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;;
+	color: #255387;
+}
+
+
+/* LOGEO */
+
+.logSupDer {
+background-image:url(../imagenes/logueo/av102.gif);
+background-repeat:no-repeat;
+}
+
+.logSupIzq {
+background-image:url(../imagenes/logueo/av101.gif);
+background-repeat:no-repeat;
+}
+
+.logInfDer{
+background-image:url(../imagenes/logueo/av103.gif);
+background-repeat:no-repeat;
+}
+
+.logInfIzq {
+background-image:url(../imagenes/logueo/av104.gif);
+background-repeat:no-repeat;
+}
+
+
+.logTxtlogeoIntro {
+ 	font-family: "Trebuchet MS", Arial;
+	font-size: small;
+	color: #000000;
+	padding-left: 13px;
+	padding-right: 13px;
+	text-align:justify;
+}
+
+.logFonLogeo {
+	background-image: url(../imagenes/logueo/av105.jpg);
+	background-repeat: no-repeat;
+	width:422px;
+	height:433px;
+}
+
+.logTxtLogeo {
+	font-family: "Trebuchet MS", Arial;
+	font-size: 12px;
+	color:#003366;
+	background-image: url(../imagenes/logueo/av47.jpg);
+	background-repeat: repeat-x;
+}
+
+
+.logFonInferior {
+	background-image:url(../imagenes/logueo/av106.jpg);
+	background-repeat:repeat-x;}
