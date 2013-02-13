@@ -1,9 +1,3 @@
-<%-- 
-    Document   : consultaPersona
-    Created on : 23/01/2013, 11:33:13 PM
-    Author     : JORGE
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%@ taglib uri="http://struts.apache.org/tags-bean" prefix="bean" %>
@@ -12,8 +6,16 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
+<script>
+    function cargarPersona(dni){
+        window.opener.InfraccionesForm.dni.value = dni;
+        window.close();
+    }
+    
+</script>
+
 <!DOCTYPE html>
-<html:html>
+<html:html lang="true">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Consulta Personas</title>
@@ -59,7 +61,7 @@
                                     <td>${persona.name}</td>
                                     <td>${persona.dni}</td>
                                     <td>${persona.fecNacimiento}</td>
-                                    <td><input type="radio" /> </td>
+                                    <td><input type="radio" onclick="javascript:cargarPersona(${persona.dni});"/> </td>
                                 </tr>
                             </c:forEach>
                         </c:if>

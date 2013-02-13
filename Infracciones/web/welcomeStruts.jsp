@@ -7,6 +7,15 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
+<script>
+    function buscarPersona(){
+        var popupWin = window.open("consultaPersona.jsp","ConsultaPersonas","center:yes,height=400,width=550,menubar=no,status=yes,resizable=no,scrollbars=yes,left=400, top=100, screenX=50, screenY=100");
+    }
+    
+    function buscarPlaca(){
+        var popupWin = window.open("consultaInfracciones.jsp","ConsultaInfracciones","center:yes,height=400,width=550,menubar=no,status=yes,resizable=no,scrollbars=yes,left=400, top=100, screenX=50, screenY=100");
+    }
+</script>
 <html:html lang="true">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -18,17 +27,19 @@
         <html:base/>
     </head>
     <body style="background-color: white">
+        <h1>Consulta de Impuestos</h1>
+        <br/>
         <html:form action="/infracciones">
 
             <table border="0">
                 <tbody>
                     <tr>
                         <td> DNI: </td>
-                        <td> <html:text property="dni" /><a href="consultaPersona.jsp"><img src="images/btn_buscar.gif"></img></a> </td>
+                        <td> <html:text property="dni"/><a href="javascript:buscarPersona();"><img src="images/btn_buscar.gif"></img></a> </td>
                     </tr>
                     <tr>
-                        <td> Placa: </td>
-                        <td> <html:text property="placa" /><a href="consultaInfracciones.jsp"><img src="images/btn_buscar.gif"></img></a> </td>
+                        <td> Infraccion: </td>
+                        <td> <html:text property="placa" /><a href="javascript:buscarPlaca();"><img src="images/btn_buscar.gif"></img></a> </td>
                     </tr>
                     <tr>
                         <td>&nbsp; </td>

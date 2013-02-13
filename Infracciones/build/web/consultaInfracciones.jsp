@@ -11,6 +11,13 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
+<script>
+    function cargarInfraccion(infraccion){
+        window.opener.InfraccionesForm.placa.value = infraccion;
+        window.close();
+    }
+    
+</script>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -61,6 +68,7 @@
                                     <td>${infraccion.marca}</td>
                                     <td>${infraccion.modelo}</td>
                                     <td>${infraccion.fecFabrica}</td>
+                                    <td><input type="radio" onclick="javascript:cargarPersona(${persona.dni});"/> </td>
                                 </tr>
                             </c:forEach>
                         </c:if>
