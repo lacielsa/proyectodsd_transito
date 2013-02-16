@@ -1,0 +1,5 @@
+C:\Users\DESARROLLO3\Desktop\RestServices\RestServices\bin\RestServices.dll
+C:\Users\DESARROLLO3\Desktop\RestServices\RestServices\bin\RestServices.pdb
+C:\Users\DESARROLLO3\Desktop\RestServices\RestServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DESARROLLO3\Desktop\RestServices\RestServices\obj\Debug\RestServices.dll
+C:\Users\DESARROLLO3\Desktop\RestServices\RestServices\obj\Debug\RestServices.pdb

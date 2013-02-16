@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4f616b10-fe45-4fd0-aedf-e67f5bd189ea" name="DESARROLLO3@LACIELSA-PC 2013-02-16 03:55:24" runUser="LACIELSA-PC\DESARROLLO3" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e7f51b93-8dd8-42ac-b4a6-482093380ace">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="DESARROLLO3_LACIELSA-PC 2013-02-16 03_55_24" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-16T03:55:24.8418152-05:00" queuing="2013-02-16T03:55:25.9328776-05:00" start="2013-02-16T03:55:26.0508844-05:00" finish="2013-02-16T03:55:40.1946934-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LACIELSA-PC" outcome="Error" timestamp="2013-02-16T03:55:40.1876930-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ListarImpuestosTest" storage="c:\users\desarrollo3\desktop\restservices\resttests\bin\debug\resttests.dll" id="185e0f47-b7a2-527e-e181-c52da00f1602">
+      <Execution id="0574fe86-3f23-4790-85c0-c54499a812f2" />
+      <TestMethod codeBase="C:/Users/DESARROLLO3/Desktop/RestServices/RestTests/bin/Debug/RestTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RestTests.ImpuestosTest, RestTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListarImpuestosTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="185e0f47-b7a2-527e-e181-c52da00f1602" executionId="0574fe86-3f23-4790-85c0-c54499a812f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0574fe86-3f23-4790-85c0-c54499a812f2" testId="185e0f47-b7a2-527e-e181-c52da00f1602" testName="ListarImpuestosTest" computerName="LACIELSA-PC" duration="00:00:14.0508037" startTime="2013-02-16T03:55:26.1438897-05:00" endTime="2013-02-16T03:55:40.1946934-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0574fe86-3f23-4790-85c0-c54499a812f2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

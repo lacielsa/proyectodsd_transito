@@ -1,0 +1,7 @@
+﻿<%@ ServiceHost 
+Language="C#" 
+Debug="true" 
+Service="RestServices.Impuestos" 
+CodeBehind="Impuestos.svc.cs" 
+factory="System.ServiceModel.Activation.WebServiceHostFactory"
+%>

@@ -1,0 +1,5 @@
+C:\Users\DESARROLLO3\Desktop\RestServices\RestTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DESARROLLO3\Desktop\RestServices\RestTests\bin\Debug\RestTests.dll
+C:\Users\DESARROLLO3\Desktop\RestServices\RestTests\bin\Debug\RestTests.pdb
+C:\Users\DESARROLLO3\Desktop\RestServices\RestTests\obj\Debug\RestTests.dll
+C:\Users\DESARROLLO3\Desktop\RestServices\RestTests\obj\Debug\RestTests.pdb
