@@ -9,9 +9,7 @@
     <form-beans>
         <form-bean name="PersonaForm" type="com.myapp.struts.PersonaForm"/>
         <form-bean name="InfraccionesForm" type="com.myapp.struts.InfraccionesForm"/>
-    
     </form-beans>
-    
     <global-exceptions>
     
     </global-exceptions>

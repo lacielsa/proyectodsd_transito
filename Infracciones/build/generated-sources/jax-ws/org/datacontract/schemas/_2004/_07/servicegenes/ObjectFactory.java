@@ -26,11 +26,11 @@ public class ObjectFactory {
 
     private final static QName _CompositeType_QNAME = new QName("http://schemas.datacontract.org/2004/07/ServiceGenes", "CompositeType");
     private final static QName _Persona_QNAME = new QName("http://schemas.datacontract.org/2004/07/ServiceGenes", "Persona");
-    private final static QName _CompositeTypeStringValue_QNAME = new QName("http://schemas.datacontract.org/2004/07/ServiceGenes", "StringValue");
     private final static QName _PersonaVNombre_QNAME = new QName("http://schemas.datacontract.org/2004/07/ServiceGenes", "v_nombre");
     private final static QName _PersonaVFecNac_QNAME = new QName("http://schemas.datacontract.org/2004/07/ServiceGenes", "v_fec_nac");
     private final static QName _PersonaVDni_QNAME = new QName("http://schemas.datacontract.org/2004/07/ServiceGenes", "v_dni");
     private final static QName _PersonaVDireccion_QNAME = new QName("http://schemas.datacontract.org/2004/07/ServiceGenes", "v_direccion");
+    private final static QName _CompositeTypeStringValue_QNAME = new QName("http://schemas.datacontract.org/2004/07/ServiceGenes", "StringValue");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: org.datacontract.schemas._2004._07.servicegenes
@@ -77,15 +77,6 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://schemas.datacontract.org/2004/07/ServiceGenes", name = "StringValue", scope = CompositeType.class)
-    public JAXBElement<String> createCompositeTypeStringValue(String value) {
-        return new JAXBElement<String>(_CompositeTypeStringValue_QNAME, String.class, CompositeType.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
     @XmlElementDecl(namespace = "http://schemas.datacontract.org/2004/07/ServiceGenes", name = "v_nombre", scope = Persona.class)
     public JAXBElement<String> createPersonaVNombre(String value) {
         return new JAXBElement<String>(_PersonaVNombre_QNAME, String.class, Persona.class, value);
@@ -116,6 +107,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://schemas.datacontract.org/2004/07/ServiceGenes", name = "v_direccion", scope = Persona.class)
     public JAXBElement<String> createPersonaVDireccion(String value) {
         return new JAXBElement<String>(_PersonaVDireccion_QNAME, String.class, Persona.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://schemas.datacontract.org/2004/07/ServiceGenes", name = "StringValue", scope = CompositeType.class)
+    public JAXBElement<String> createCompositeTypeStringValue(String value) {
+        return new JAXBElement<String>(_CompositeTypeStringValue_QNAME, String.class, CompositeType.class, value);
     }
 
 }

@@ -7,7 +7,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-<<<<<<< HEAD
 <script>
     function buscarPersona(){
         var popupWin = window.open("consultaPersona.jsp","ConsultaPersonas","center:yes,height=400,width=550,menubar=no,status=yes,resizable=no,scrollbars=yes,left=400, top=100, screenX=50, screenY=100");
@@ -16,9 +15,8 @@
     function buscarPlaca(){
         var popupWin = window.open("consultaInfracciones.jsp","ConsultaInfracciones","center:yes,height=400,width=550,menubar=no,status=yes,resizable=no,scrollbars=yes,left=400, top=100, screenX=50, screenY=100");
     }
+    
 </script>
-=======
->>>>>>> efd1d606ce7191b5be58ac70ea9c18455168e15f
 <html:html lang="true">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -28,32 +26,25 @@
         <link rel="stylesheet" href="styles/screen.css" type="text/css">
         <link rel="stylesheet" type="text/css" href="styles/jquery-ui-1.8.custom.css"/>
         <html:base/>
+        
+        <style type="text/css">
+        <!--
+        BODY { background: #ffffff url(images/carro.jpg) no-repeat; position: static}
+        -->
+        </style>
+        
+        
     </head>
-    <body style="background-color: white">
-<<<<<<< HEAD
+    <body>
         <h1>Consulta de Impuestos</h1>
         <br/>
-=======
->>>>>>> efd1d606ce7191b5be58ac70ea9c18455168e15f
-        <html:form action="/infracciones">
+        <html:form action="/infracciones" style="">
 
             <table border="0">
                 <tbody>
                     <tr>
                         <td> DNI: </td>
-<<<<<<< HEAD
                         <td> <html:text property="dni"/><a href="javascript:buscarPersona();"><img src="images/btn_buscar.gif"></img></a> </td>
-                    </tr>
-                    <tr>
-                        <td> Infraccion: </td>
-                        <td> <html:text property="placa" /><a href="javascript:buscarPlaca();"><img src="images/btn_buscar.gif"></img></a> </td>
-=======
-                        <td> <html:text property="dni" /><a href="consultaPersona.jsp"><img src="images/btn_buscar.gif"></img></a> </td>
-                    </tr>
-                    <tr>
-                        <td> Placa: </td>
-                        <td> <html:text property="placa" /><a href="consultaInfracciones.jsp"><img src="images/btn_buscar.gif"></img></a> </td>
->>>>>>> efd1d606ce7191b5be58ac70ea9c18455168e15f
                     </tr>
                     <tr>
                         <td>&nbsp; </td>
@@ -93,7 +84,7 @@
                             <td>IM-154</td>
                             <td>Deuda 1</td>
                             <td>05/05/2013</td>
-                            <td>&nbsp; <a href=""><img src="images/generarCorreo.gif" alt="Enviar Correo"></img></a> </td>
+                            <td>&nbsp; <a href="http://10.90.5.151:8080/PracticaJms-war/Consumidor?dni=00119992"><img src="images/generarCorreo.gif" alt="Enviar Correo"></img></a> </td>
                         </tr>
                     </tbody>
                 </table>
